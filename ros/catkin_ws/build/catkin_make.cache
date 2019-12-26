@@ -1,0 +1,2 @@
+demo:duckietown_msgs
+-DCATKIN_DEVEL_PREFIX=/home/murd0ckbl3ak/AD-simulator/ros/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/murd0ckbl3ak/AD-simulator/ros/catkin_ws/install -G Unix Makefiles
