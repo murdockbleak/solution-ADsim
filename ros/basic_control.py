@@ -41,8 +41,8 @@ while True:
     ###### Start changing the code here.
     # TODO: Decide how to calculate the speed and direction.
 
-    k_p = 10
-    k_d = 1
+    k_p = 15
+    k_d = 25
     
     # The speed is a value between [0, 1] (which corresponds to a real speed between 0m/s and 1.2m/s)
     
