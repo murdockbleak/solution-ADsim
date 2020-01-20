@@ -70,6 +70,9 @@ while True:
     
     # angle of the steering wheel, which corresponds to the angular velocity in rad/s
     steering = k_p*distance_to_road_center + k_d*angle_from_straight_in_rads # TODO: You should overwrite this value
+    
+    action[0] = speed
+    action[1] = steering
 
     ###### No need to edit code below.
     
